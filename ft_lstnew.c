@@ -23,3 +23,6 @@ t_list	*ft_lstnew(void *content)
 	new->next = 0;
 	return (new);
 }
+/*
+	printf("%s", (char *) ft_lstnew("nazli") -> content);
+*/
