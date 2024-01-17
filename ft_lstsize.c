@@ -24,3 +24,18 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
+/*
+	t_list *node1;
+	t_list *node2;
+
+	node1 = malloc(sizeof(t_list));
+	node2 = malloc(sizeof(t_list));
+	
+	node2 -> content = "naz";
+	node2 -> next = 0;
+
+	node1 -> content = "anap";
+	node1 -> next = node2;
+
+	printf("%d", ft_lstsize(node1));
+*/
