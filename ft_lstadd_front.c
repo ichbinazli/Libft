@@ -19,3 +19,22 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	new -> next = *lst;
 	*lst = new;
 }
+/*
+	t_list *one;
+	t_list *second;
+	one = malloc(sizeof(t_list));
+	second = malloc(sizeof(t_list));
+
+	one -> content = "anapa";
+	one -> next = NULL;
+
+	second -> content = "nazli";
+
+	ft_lstadd_front(&one, second);
+	
+	while(second)
+	{
+		printf("%s", second -> content);
+		second = second -> next;
+	}
+*/
