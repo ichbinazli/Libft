@@ -80,3 +80,13 @@ char	**ft_split(char const *s, char c)
 	result[i] = NULL;
 	return (result);
 }
+/*
+	char *a = "nazli ogulcan durkan";
+	char **result = ft_split(a, ' ');
+	int i = 0;
+	while (i < 3)
+	{
+		printf("%s\n", result[i]);
+		i++;
+}
+*/
