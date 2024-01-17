@@ -22,3 +22,16 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(ptr, count * size);
 	return (ptr);
 }
+
+/*
+	int i = 0;
+	int	sayac;
+	int	*ptr;
+	sayac = 10;
+	ptr = ft_calloc(sayac, sizeof(int));
+	while(i < sayac)
+	{
+		printf("%d\n", *ptr);
+		i++;
+}
+*/
